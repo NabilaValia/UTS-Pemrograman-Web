@@ -1,0 +1,45 @@
+
+/* ===== ABOUT SECTION ===== */
+.about {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.about-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    gap: 60px;
+}
+
+.photo img {
+    width: 400px;
+    height: 400px;
+    margin-top: -50px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.text {
+    max-width: 600px;
+}
+
+.text h1 {
+    font-size: 42px;
+    font-weight: 800;
+    margin-top: -50px;
+    margin-bottom: 10px;
+}
+.role {
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    letter-spacing: 1px;
+}
+.desc {
+    line-height: 1.7;
+    font-size: 16px;
+}

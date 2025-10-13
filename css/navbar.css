@@ -1,0 +1,54 @@
+body {
+    margin: 0;
+    padding: 0;
+    opacity: 0;
+    font-family: "Poppins", sans-serif;
+    background: #fff;
+    color: #000;
+    overflow: hidden;
+}
+body.fade-in {
+  opacity: 1;
+}
+body.fade-out {
+  opacity: 0;
+  transition: opacity 0.4s ease;
+}
+/* ===== NAVBAR ===== */
+.navbar {
+    text-align: center;
+    padding: 20px 0;
+    border-bottom: 1px solid #000;
+    padding-bottom: 30px; 
+    width: 100%;
+    margin: 0 auto;
+}
+
+.navbar ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #000000;
+    font-weight: 700;
+    letter-spacing: 1px;
+    padding: 8px 14px;
+    border-radius: 20px;
+    transition: all 0.3s ease;
+}
+
+/* efek hover & aktif */
+.navbar a:hover,
+.navbar a.active {
+  background-color: #000;
+  color: #fff;
+  border-radius: 50px;
+  transition: all 0.3s ease;
+  padding: 8px 14px;
+}
