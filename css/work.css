@@ -1,12 +1,9 @@
-/* Work Section */
 .work-section {
     flex: 1;
     display: flex;
     align-items: center;
     justify-content: center;
 }
-
-/* Bungkus dua gambar agar sejajar */
 .work-image {
     display: flex;
     flex-direction: column;
@@ -21,9 +18,8 @@
 }
 
 .work-image img:hover {
-    transform: scale(1.08) translateY(-6px);
+    transform: scale(1.08);
 }
-/* Buat teks di tengah antara dua HP */
 .work-content {
     max-width: 300px;
     text-align: center;
@@ -32,12 +28,12 @@
     align-items: center;
 }
 .work-content h1 {
-    font-size: 1.8rem;
+    font-size: 32px;
     letter-spacing: 2px;
 }
 
 .work-content h2 {
-    font-size: 1.8rem;
+    font-size: 32px;
     margin-top: 15px;
 }
 
@@ -63,6 +59,7 @@
     border-radius: 25px;
     font-weight: 600;
     transition: all 0.3s ease;
+    cursor: pointer;
 }
 
 .button:hover {

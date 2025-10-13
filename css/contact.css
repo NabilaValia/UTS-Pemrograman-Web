@@ -1,6 +1,5 @@
-/* ===== CONTACT SECTION ===== */
 .contact-container {
-    display: flex;
+    display: flex; 
     justify-content: center;
     align-items: center;
     gap: 100px;
@@ -44,7 +43,6 @@
 .contact-info a:active {
   color: #ffcc00; 
 }
-/* ===== RIGHT SIDE ===== */
 .contact-right img {
     width: 400px;
     height: 400px;
@@ -53,8 +51,6 @@
     border-radius: 50%;
     filter: drop-shadow(0px 15px 40px rgba(0, 0, 0, 0.35));
 }
-
-/* ===== FOOTER ===== */
 .copyright {
   text-align: center;
   margin-bottom: 20px;
