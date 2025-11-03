@@ -10,7 +10,7 @@
 <body>
   <nav class="navbar">
     <ul>
-      <li><a href="home.html" class="active">HOME</a></li>
+      <li><a href="index.php" class="active">HOME</a></li>
       <li><a href="about.html">ABOUT</a></li>
       <li><a href="work.html">WORK EXPERIENCE</a></li>
       <li><a href="tools.html">TOOLS</a></li>
