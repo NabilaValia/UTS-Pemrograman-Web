@@ -4,55 +4,76 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Tools | Nabila Valia</title>
-  <link rel="stylesheet" href="css/tools.css">
-  <link rel="stylesheet" href="css/button.css">
-  <link rel="stylesheet" href="css/navbar.css">
+  <link href="Tampilan/Bootstrap.min.css" rel="stylesheet">
 </head>
-<body>
-  <nav class="navbar">
-    <ul>
-      <li><a href="index.php">HOME</a></li>
-      <li><a href="about.html">ABOUT</a></li>
-      <li><a href="work.html">WORK EXPERIENCE</a></li>
-      <li><a href="tools.html" class="active">TOOLS</a></li>
-      <li><a href="project.html">PERSONAL PROJECT</a></li>
-      <li><a href="contact.html">CONTACT PERSON</a></li>
-    </ul>
+
+<body class="bg-light">
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark shadow-sm">
+    <div class="container">
+      <a class="navbar-brand text-uppercase fw-bold" href="index.php">Nabila Valia</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item"><a class="nav-link" href="index.php">HOME</a></li>
+          <li class="nav-item"><a class="nav-link" href="about.html">ABOUT</a></li>
+          <li class="nav-item"><a class="nav-link" href="work.html">WORK EXPERIENCE</a></li>
+          <li class="nav-item"><a class="nav-link active" href="tools.html">TOOLS</a></li>
+          <li class="nav-item"><a class="nav-link" href="project.html">PERSONAL PROJECT</a></li>
+          <li class="nav-item"><a class="nav-link" href="contact.html">CONTACT PERSON</a></li>
+          <li class="nav-item"><a class="nav-link" href="PHPDBPostGre/login.php">LOGIN</a></li>
+        </ul>
+      </div>
+    </div>
   </nav>
 
-  <section class="tools-section">
-    <div class="tools-container">
-      <div class="tools-left">
-        <h1>TOOLS</h1>
-        <div class="tool-icons">
-          <img src="images/canva logo.jpg" alt="Canva">
-          <img src="images/capcut logo.jpg" alt="CapCut">
-          <img src="images/figma logo.jpg" alt="Figma">
-          <img src="images/ps logo.jpg" alt="Photoshop">
-          <img src="images/picsart logo.jpg" alt="PicsArt">
+  <section class="py-5">
+    <div class="container">
+      <div class="row align-items-center justify-content-center g-5">
+        <!-- Left Side -->
+        <div class="col-md-5 text-center">
+          <h1 class="fw-bold mb-4">TOOLS</h1>
+          <div class="d-flex flex-wrap justify-content-center gap-3">
+            <img src="images/canva logo.jpg" alt="Canva" class="img-thumbnail" style="width:70px; height:70px;">
+            <img src="images/capcut logo.jpg" alt="CapCut" class="img-thumbnail" style="width:70px; height:70px;">
+            <img src="images/figma logo.jpg" alt="Figma" class="img-thumbnail" style="width:70px; height:70px;">
+            <img src="images/ps logo.jpg" alt="Photoshop" class="img-thumbnail" style="width:70px; height:70px;">
+            <img src="images/picsart logo.jpg" alt="PicsArt" class="img-thumbnail" style="width:70px; height:70px;">
+          </div>
+        </div>
+        <div class="col-md-1 d-none d-md-flex justify-content-center">
+          <div class="border-end" style="height: 300px;"></div>
+        </div>
+
+        <!-- Right Side -->
+        <div class="col-md-5">
+          <h1 class="fw-bold mb-3 text-center text-md-start">PERSONAL SKILL</h1>
+          <p class="text-muted">
+            My skill are about social media needed and I’m familiar with some tools and software:
+          </p>
+          <ol class="text-start">
+            <li>Planning Content</li>
+            <li>Time Management</li>
+            <li>Photography</li>
+            <li>Videography</li>
+            <li>Photo & Video Editing</li>
+            <li>Copy Writing</li>
+            <li>Content Writes</li>
+          </ol>
         </div>
       </div>
+      <div class="position-fixed bottom-0 start-0 m-4">
+        <button class="btn btn-outline-secondary" onclick="location.href='work.html'">← Back</button>
+      </div>
 
-      <div class="divider"></div>
-      <div class="tools-right">
-        <h1>PERSONAL SKILL</h1>
-        <p>
-          My skill are about social media needed and I’m familiar with some tools and software:
-        </p>
-        <ol>
-          <li>Planning Content</li>
-          <li>Time Management</li>
-          <li>Photography</li>
-          <li>Videography</li>
-          <li>Photo & Video Editing</li>
-          <li>Copy Writing</li>
-          <li>Content Writes</li>
-        </ol>
+      <div class="position-fixed bottom-0 end-0 m-4">
+        <button class="btn btn-primary" onclick="location.href='project.html'">Next →</button>
       </div>
     </div>
   </section>
-    <button class="back-button" data-href="work.html">← Back</button>
-    <button class="next-button" data-href="project.html">Next →</button>
-<script src="script.js"></script>
+
+  <script src="Tampilan/Bootstrap.min.css"></script>
 </body>
 </html>
